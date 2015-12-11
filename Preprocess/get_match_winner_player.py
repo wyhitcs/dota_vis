@@ -29,7 +29,7 @@ for match_id in match_list:
 		
 		for row in pf_csv:
 			if winner ==2:
-				tier = row['tier']
+				tier = row['']
 				if row['won'] == '0':
 					if row['team'] == 'dire':
 						winner = 'radiant'

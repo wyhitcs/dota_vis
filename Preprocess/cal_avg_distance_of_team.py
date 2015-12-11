@@ -28,7 +28,7 @@ with open("../Data/master-distance.csv") as f:
 				dire_total_distance_list[match_index] = dire_total_distance_list[match_index] + float(row['DD'])
 		with open("match_avg_distance.csv",'a') as df:
 			df_csv = csv.writer(df)
-			match_distance_header = ['match_id','radiant_avg_distance','dire_avg_distance']
+			match_distance_header = ['match_id','tsync','radiant_avg_distance','dire_avg_distance']
 			df_csv.writerow(match_distance_header)
 			for total_div_num in tsync_num_list:
 				index = tsync_num_list.index(total_div_num)
@@ -37,7 +37,7 @@ with open("../Data/master-distance.csv") as f:
 				if num_of_tsync != 0:
 					radiant_avg_list[index] = radiant_total_distance_list[index]/num_of_tsync
 					dire_avg_list[index] = dire_total_distance_list[index]/num_of_tsync
-				df_csv.writerow([match_list[index],radiant_avg_list[index],dire_avg_list[index]])
+				df_csv.writerow([match_list[index],total_div_num,radiant_avg_list[index],dire_avg_list[index]])
 
 # print "number"
 # print tsync_num_list
