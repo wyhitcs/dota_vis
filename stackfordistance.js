@@ -1,7 +1,33 @@
-///**
-// * Created by wangyu on 15/12/13. */
+/* Created by wangyu on 15/12/13. */
+var stack_width = 500;
+var stack_height = 500;
+var stack_padding = {left: 30, right: 30, top: 20, bottom: 20};
+//new svg
+var stack_svg = d3.select("body")
+    .append("svg")
+    .attr("width", stack_width)
+    .attr("height", stack_height)
+    .attr("class","stack");
+
 d3.csv("stack_gen.csv", function (stackdata) {
-    svg.selectAll("rect")
+    //console.log(stackdata);
+    //console.log(typeof(stackdata));
+    var winner_data=[];
+    for(var i=0;i<stackdata.length;i++)
+    {
+        winner_data.push(stackdata[i].winner_distace_ratio);
+    }
+    //console.log(winner_data);
+    var bin_num = 20;
+    var stack_data = d3.layout.histogram()
+        .range([0,1])
+        .bins(bin_num)
+        .frequency(false);
+    //console.log(stack_data);
+
+    var data = stack_data(winner_data);
+    console.log(data);
+    stack_svg.selectAll("rect")
         .data(stackdata)
         .enter()
         .append("rect")
