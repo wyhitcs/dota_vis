@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a23483e-d4a7-4681-886d-b8805aa2a0c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dota_vis.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.html" afterPath="$PROJECT_DIR$/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stack_gen.csv" afterPath="$PROJECT_DIR$/stack_gen.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stackfordistance.js" afterPath="$PROJECT_DIR$/stackfordistance.js" />
-    </list>
+    <list default="true" id="8a23483e-d4a7-4681-886d-b8805aa2a0c3" name="Default" comment="" />
     <ignored path="dota_vis.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
