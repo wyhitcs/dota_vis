@@ -236,7 +236,7 @@ var t = function (a, b) {
                 ? (a._proficiency = a.value, d3.entries([a.value[a.value.length - 1]]))
                 : (a._proficiency = u(a.value), isNaN(a.value) ? d3.entries(a.value) : null)
         })
-        .value(function (a) { return a.value }),
+        .value(function (a) { return 1;}),//a.value }),膜拜大神
     arc = d3.svg
         .arc()
         .startAngle(function (a) { return a.x })

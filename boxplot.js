@@ -93,7 +93,7 @@ d3.csv("match_winner_tier_distance1.csv", function(error, csv) {
 
     // the x-axis
     var x = d3.scale.ordinal()
-        .domain( data.map(function(d) { console.log(d); return d[0] } ) )
+        .domain( data.map(function(d) {  return d[0] } ) )
         .rangeRoundBands([0 , width], 0.7, 0.3);
 
     var xAxis = d3.svg.axis()
