@@ -3,7 +3,7 @@ var map_width = 500;
 var map_height = 500;
 var padding = {left: 30, right: 30, top: 20, bottom: 20};
 //new svg
-var svg = d3.select("body")
+var svg = d3.select("#area1")
     .append("svg")
     .attr("width", map_width)
     .attr("height", map_height)
@@ -141,7 +141,7 @@ var symbol_position = [
     [2,5]
 ];
 //new svg
-var svg_symbol = d3.select("body")
+var svg_symbol = d3.select("#area1")
     .append("svg")
     .attr("width", symbol_width)
     .attr("height", symbol_height)

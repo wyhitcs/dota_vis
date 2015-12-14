@@ -4,10 +4,10 @@ var n = 40, // number of layers
     m = 2; // number of samples per layer
 
 var margin = {top: 20, right: 50, bottom: 100, left: 75},
-    width = 740 - margin.left - margin.right,
+    width = 1300 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#area3").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
