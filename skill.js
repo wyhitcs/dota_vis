@@ -109,9 +109,9 @@ var chart = function (d3) {
             }), b
         }
         function c(b, c) {
-            j.domain(d3.extent(b, function (a) { return a.date }));
+            j.domain([0,100]);//d3.extent(b, function (a) { return a.date }));
             k
-                .domain([0, 100]), cpath
+                .domain([0, 300]), cpath
                 .append("g")
                 .attr("class", "x-axis axis")
                 .attr("transform", "translate(0," + h + ")")
@@ -120,7 +120,7 @@ var chart = function (d3) {
                 .attr("x", 450)
                 .attr("y", -8)
                 .style("text-anchor", "end")
-                .text("Time"), cpath
+                .text("Distance"), cpath
                 .append("g")
                 .attr("class", "y-axis axis")
                 .call(lefttick)
@@ -129,7 +129,7 @@ var chart = function (d3) {
                 .attr("y", 6)
                 .attr("dy", ".91em")
                 .style("text-anchor", "end")
-                .text("Proficiency"), cpath
+                .text("Num_Players"), cpath
                 .append("path")
                 .datum(b)
                 .attr("class", "line")
@@ -154,17 +154,17 @@ var chart = function (d3) {
                 bottom: 30,
                 left: 50
             },
-            g = 500 - rect.left - rect.right,
+            g = 900 - rect.left - rect.right,
             h = 400 - rect.top - rect.bottom,
-            i = [1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
-            j = d3.scale.linear().range([0, g]),
+            i = [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100],
+            j = d3.scale.linear().range([0, g/2]),
             k = d3.scale.linear().range([h, 0]),
             bottomtick = d3
                 .svg
                 .axis()
                 .scale(j)
-                .tickValues([1999, 2004, 2009, 2013])
-                .tickFormat(d3.format(".0f"))
+                .tickValues([25,50,75,100])
+                //.tickFormat(d3.format(".0f"))
                 .tickPadding(10)
                 .tickSize(0)
                 .orient("bottom"),
@@ -174,7 +174,7 @@ var chart = function (d3) {
                 .scale(k)
                 .tickSize(0)
                 .tickPadding(10)
-                .tickValues([20, 40, 60, 80, 100])
+                .tickValues([20, 40, 60, 80, 100,120, 140, 160, 180, 200,220, 240, 260, 280, 300])
                 .orient("left"),
             n = d3.svg.line().interpolate("basis").x(function (a) {
                 return j(a.date)
