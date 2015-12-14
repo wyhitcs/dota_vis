@@ -126,7 +126,10 @@ d3.csv("frequency_for_ratio.csv", function (data){
     }
 
     function transitionGrouped() {
-        y.domain([0, yGroupMax]);
+        //y.domain([0, yGroupMax]);
+        //var y = d3.scale.linear()
+        //    .domain([0, yGroupMax])
+        //    .range([height, 0]);
 
         rect.transition()
             .duration(500)
@@ -136,7 +139,7 @@ d3.csv("frequency_for_ratio.csv", function (data){
             .transition()
             .attr("y", function(d) { return y(d.y); })
             .attr("height", function(d) { return height - y(d.y); });
-
+            //.text(function(d){return d.y;});
 
     };
 
