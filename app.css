@@ -1,4 +1,4 @@
-
+.
 .box {
     font: 10px sans-serif;
 }
@@ -58,15 +58,10 @@ text {
     shape-rendering: crispEdges;
 }
 
-form {
-    position: relative;
-    right: 10px;
-    top: 10px;
-}
-
 
 .axis text{
     font-family: sans-serif;
     font-size: 11px;
 }
+
 

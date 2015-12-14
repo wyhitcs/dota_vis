@@ -3,25 +3,47 @@
 	<head>
 		<title>Data Visualization Assignment 1</title>
 		<link rel=stylesheet href=app.css>
+		<link rel="stylesheet" href="skill.css">
 		<script type="text/javascript" src="d3.v3.min.js" charset="utf-8"></script>
 		<script src="box.js"></script>
         <!--<script type="text/javascript" src="jquery-1.3.2.min.js" charset="UTF-8"></script>-->
 		<!--<script type="text/javascript" src="jquery.csv-0.71.js" charset="utf-8"></script>-->
-
+		<!--<script type="text/javascript" src="skillsdata.js"></script>-->
+		<!--<script type="text/javascript" src="skill.js"></script>-->
 	</head>
 
 	<body>
 
 		<div id="area1"></div>
 		<div id="area2"></div>
-		<div id="area3"></div>
-		<script type="text/javascript" src="boxplot.js"></script>
 
-		<form>
+		<script type="text/javascript" src="boxplot.js"></script>
+		<div id="skills">
+			<div id="skillmap">
+				<div class="skills-wrapper">
+					<div class="skills-sunburst"></div>
+					<div class="skills-chart">
+						<div id="skills-chart-breadcrumb"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="skillsdata.js"></script>
+		<script type="text/javascript" src="skill.js"></script>
+		<div id="area3"></div>
+		<script type="text/javascript" src="stackfordistance.js">
+		</script>
+		<form id = "button_ratio">
 			<label><input type="radio" name="mode" value="grouped" > Grouped</label>
 			<label><input type="radio" name="mode" value="stacked"> Stacked</label>
 		</form>
-		<script type="text/javascript" src="stackfordistance.js"></script>
 		<!--<script type="text/javascript" src="map.js"></script>-->
+
+
+		<!--<script type="text/javascript">-->
+			<!--// Hack to make this example display correctly in an iframe on bl.ocks.org-->
+			<!--d3.select(self.frameElement).style("height", "700px");-->
+		<!--</script>-->
 	</body>
 </html>
