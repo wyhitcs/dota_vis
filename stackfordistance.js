@@ -73,12 +73,17 @@ d3.csv("frequency_for_ratio.csv", function (data){
         .attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis)
+        .append("text")      // text label for the x axis
+        .attr("x", width/2 )
+        .attr("y", 40 )
+        .text("ratio")
         .selectAll("text").style("text-anchor", "end")
         .attr("dx", "-.8em")
         .attr("dy", ".15em")
         .attr("transform", function(d) {
             return "rotate(-45)"
-        });
+        })
+        ;
 
     svg.append("g")
         .attr("class", "y axis")

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8a23483e-d4a7-4681-886d-b8805aa2a0c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boxplot.js" afterPath="$PROJECT_DIR$/boxplot.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skill.js" afterPath="$PROJECT_DIR$/skill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stackfordistance.js" afterPath="$PROJECT_DIR$/stackfordistance.js" />
     </list>
     <ignored path="dota_vis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,18 +28,18 @@
       <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.470588">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state vertical-scroll-proportion="-5.3137255">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stackfordistance.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stackfordistance.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stackfordistance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="140" column="58" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.54239404">
+              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skill.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="skill.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skill.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44516128">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state vertical-scroll-proportion="-86.666664">
+              <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -91,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/boxplot.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+              <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -124,13 +124,13 @@
       <list>
         <option value="$PROJECT_DIR$/frequency_for_ratio.csv" />
         <option value="$PROJECT_DIR$/map.js" />
-        <option value="$PROJECT_DIR$/stackfordistance.js" />
         <option value="$PROJECT_DIR$/skill.css" />
         <option value="$PROJECT_DIR$/app.html" />
         <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/skillsdata.js" />
         <option value="$PROJECT_DIR$/boxplot.js" />
         <option value="$PROJECT_DIR$/skill.js" />
+        <option value="$PROJECT_DIR$/stackfordistance.js" />
       </list>
     </option>
   </component>
@@ -385,30 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stackfordistance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="140" column="58" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.041666">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.470588">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skillsdata.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -427,18 +403,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boxplot.js">
+    <entry file="file://$PROJECT_DIR$/skill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+        <state vertical-scroll-proportion="-86.666664">
+          <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skill.js">
+    <entry file="file://$PROJECT_DIR$/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44516128">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state vertical-scroll-proportion="-28.041666">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3137255">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boxplot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="24" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stackfordistance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54239404">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
           <folding />
         </state>
       </provider>

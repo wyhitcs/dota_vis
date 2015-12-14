@@ -154,7 +154,7 @@ var chart = function (d3) {
                 bottom: 30,
                 left: 50
             },
-            g = 900 - rect.left - rect.right,
+            g = 800 - rect.left - rect.right,
             h = 400 - rect.top - rect.bottom,
             i = [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100],
             j = d3.scale.linear().range([0, g/2]),
